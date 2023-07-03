@@ -1,0 +1,191 @@
+body{
+    background-color: #edf5f7!important;
+    padding-bottom: 50px;
+}
+.header{
+    background-image: linear-gradient(45deg, rgba(245,70,66, 0.75), rgba(8,83,156, 0.75)), url('https://gnodesign.com/templates/movify/assets/images/posters/movie-collection.jpg');
+    padding: 50px 0;
+}
+.movie-menubar{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.search-label{
+    position: relative;
+    top: -3px;
+}
+
+.search-container{
+    display: flex;
+    font-size: 12px;
+}
+
+.search-option{
+    padding: 0 10px;
+}
+
+#changeView{
+    font-size: 1.5rem;
+}
+
+.content-layout{
+    margin-top: 20px !important;
+}
+
+.card{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.card:hover{
+    top: -10px;
+}
+
+.thumbnail{
+    max-height: 350px;
+    overflow: hidden;
+}
+.card-body{
+    position: relative;
+    color: #999 !important;
+    font-size: 0.6rem;
+}
+
+.play-btn{
+    position: absolute;
+    top: -30px;
+    right: 15px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50%;
+    background: #9352b3;
+    box-shadow: 0 10px 30px 0 rgba(147,82,179,.7);
+    cursor: pointer;
+}
+
+.play-icon{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.card-title{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #3e4555;
+    font-size: 1.5rem;
+}
+
+.description{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding: 10px 0;
+    max-height: 3.3rem;
+}
+
+.comm-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.details-btn{
+    background: #9352b3 !important;
+    border: none !important;
+}
+
+.details-btn:hover, .play-btn:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.search-bar{
+    position: relative;
+}
+
+
+.search-icon{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+
+#search{
+    border: none;
+    border-radius: 10px;
+}
+
+#search-submit{
+    cursor: pointer;
+}
+
+.star{
+    width: 10px;
+    padding: 0 0px;
+}
+.rating-value{
+    margin-left: 5px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tick-icon-ctnr{
+    display: flex;
+    justify-content: center;
+}
+
+.tick-icon{
+    border: 1px solid;
+    border-radius: 50%;
+    height: 25px;
+    overflow: hidden;
+    width: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tick-icon:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.checked{
+    background-color: red;
+    color: #fff;
+}
+
+.unchecked{
+    color : rgb(153, 153, 153);
+    background-color: transparent;
+}
+
+::placeholder {
+    text-align: start; 
+    padding: 10px;
+ }
+
+ .loader{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, black, transparent);
+ }
+
+ .spinner-ctnr{
+    transform: translate(50%, 700%);
+ }
+
+ .show{
+    display: block !important;
+ }
+ 

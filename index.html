@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/bc8041707f.js" crossorigin="anonymous"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.1/jquery.twbsPagination.min.js"> </script> 
+</head>
+<body>
+    <div class="header"></div>
+    <div class="container" style="display: none;">
+        <div class="movie-menubar">
+        <div class="search-container">
+            <div class="search-bar">
+                <input id="search" placeholder="Search">
+                <i class="fa fa-search search-icon" id="search-submit"></i>
+            </div>
+            <div class="search-option">
+                <input type="radio" id="radio1" name="searchBy" value="Language" checked="true"/>
+                <label for="Language" class="search-label">Language</label>
+                <input type="radio" id="radio2" name="searchBy" value="Year" />
+                <label for="Year" class="search-label">Year</label>
+                <input type="radio" id="radio3" name="searchBy" value="Keyword" />
+                <label for="Keyword" class="search-label">Keyword</label>
+            </div>
+        </div>
+        
+        </div>
+        <div class="row content-lib-container">
+            <div class="col-lg-4 col-md-6 col-sm-12 content-layout" style="display:none">
+                <div class="card">
+                    <div class="thumbnail">
+                        <img class="card-img-top" src="https://img.theculturetrip.com/wp-content/uploads/2018/01/6.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <div class="comm-info">
+                            <div class="rating">
+                                <img src="images/star.png" alt="" class="star"><span class="rating-value">rating</span>
+                            </div>
+                            <div class="genre">
+                                genre
+                            </div>
+                        </div>
+                        <p class="card-text description">description</p>
+                        <div class="footer">
+                            <a href="#" target="_self" class="btn btn-primary details-btn">Read More</a>
+                            <div>
+                                <div class="tick-icon-ctnr">
+                                    <div class="tick-icon" target="1">
+                                        <i class="fa fa-check" aria-hidden="true" style="font-size: 14px;position: relative;top: 5px;"></i>
+                                    </div>
+                                </div>
+                                <div class="watch-status">Already watched</div>
+                            </div>
+                        </div>
+                        <div class="play-btn">
+                            <i class="fa fa-play play-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav aria-label="Page navigation example" style="margin: 20px;">
+        <ul class="pagination justify-content-center">
+          
+        </ul>
+      </nav>
+    <div class="loader" style="display: none;">
+        <div class="spinner-ctnr">
+            <div class="spinner-border text-primary" role="status">
+                <span class="sr-only"></span>
+              </div>
+        </div>
+    </div>
+  </div> 
+</body>
+</html>
